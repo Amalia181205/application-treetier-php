@@ -4,7 +4,7 @@ class Model {
     protected $db;
 
     public function __construct() {
-        $config = require "../app/config/database.php";
+        $config = require "../app/config/Database.php";
         $this->db = new PDO(
             "mysql:host={$config['host']};dbname={$config['dbname']}",
             $config['user'],

@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../service/ProdukService.php';
+require_once __DIR__ . '/../services/ProdukService.php';
 
 class ProdukController {
 
